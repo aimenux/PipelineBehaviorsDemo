@@ -1,0 +1,9 @@
+﻿# curl -X 'GET' 
+#  'https://localhost:5000/api/v1/weathers/rome' 
+#  -H 'accept: text/plain'
+
+GET https://localhost:5000/api/v1/weathers/rome
+accept: text/plain
+
+###
+

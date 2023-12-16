@@ -1,0 +1,39 @@
+# top-most EditorConfig file
+root = true
+
+# C# files
+[*.cs]
+
+# Indentation and spacing
+charset = utf-8
+tab_width = 4
+indent_size = 4
+indent_style = space
+
+# New line preferences
+end_of_line = crlf
+insert_final_newline = true
+csharp_new_line_before_else = true
+csharp_new_line_before_catch = true
+csharp_new_line_before_finally = true
+csharp_new_line_before_open_brace = all
+csharp_new_line_between_query_expression_clauses = true
+csharp_new_line_before_members_in_anonymous_types = true
+csharp_new_line_before_members_in_object_initializers = true
+
+# Organize using directives
+dotnet_sort_system_directives_first = true
+dotnet_separate_import_directive_groups = false
+
+# Parameter preferences
+dotnet_code_quality_unused_parameters = all:warning
+
+# Prefer "var" everywhere
+csharp_style_var_for_built_in_types = true:warning
+csharp_style_var_when_type_is_apparent = true:warning
+csharp_style_var_elsewhere = true:warning
+
+# Code-block preferences
+csharp_prefer_braces = true:warning
+csharp_preserve_single_line_blocks = true
+csharp_preserve_single_line_statements = true
